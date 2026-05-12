@@ -44,7 +44,7 @@ A collection of seven public email corpora curated for phishing/spam classificat
 | `SpamAssasin.csv`    | sender, receiver, date, subject, body, label, urls | 201,450   | spam (Apache SpamAssassin corpus)                  |
 | `phishing_email.csv` | text_combined, label                               | 82,486    | phishing or spam (merged across all sources above) |
 
-`phishing_email.csv` is the author's consolidated corpus: subject and body are concatenated into a single `text_combined` field, and the per-source spam/phishing distinction is collapsed into one "malicious" class.
+`phishing_email.csv` is the author's consolidated corpus: subject and body are concatenated into a single `text_combined` field, and the per-source spam/phishing distinction is collapsed into one "malicious" class (already stemmed and preprocessed as well).
 
 ## dataset-2: Phishing Email & SMS Dataset with NLP Categories
 
