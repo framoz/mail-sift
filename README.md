@@ -1,4 +1,4 @@
-# General Mail Predict
+# MailSift 
 
 A machine learning project developed in the context of the **Artificial Intelligence** course at **FEUP**
 
